@@ -1,0 +1,16 @@
+1、准备
+执行init.sql
+2、启动：
+App.java
+3、使用：
+①建表
+URL:
+http://127.0.0.1:29090/dynamicTable/createTable?configId=1
+
+②删字段
+URL:
+http://127.0.0.1:29090/dynamicTable/delColumn?columnConfigId=4
+
+②加字段
+URL:
+http://127.0.0.1:29090/dynamicTable/addColumn?columnConfigId=4
